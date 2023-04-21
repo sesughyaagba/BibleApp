@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: Arial, sans-serif;
+  box-sizing: border border-box;
+}
+body {
+  display: grid;
+  height: 100vh;
+}
+
+.readBtn {
+  height: 55px;
+  width: 180px;
+  text-align: center;
+  padding: 15px;
+  background: rgb(34, 13, 125);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin-top: 400px;
+  margin-left: 45%;
+  /* display: none; */
+}
+
+#scriptures {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  margin-top: 40px;
+  border: 1px solid #333;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 20px 0;
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  flex-direction: column;
+}
+
+#bible_books {
+  display: flex;
+  font-size: 20px;
+  font-family: 600;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#bible_books .old_test {
+  width: 50%;
+  padding: 10px;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+  word-spacing: 3px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 28px;
+  padding: 12px;
+}
+
+#bible_books .new_test {
+  padding: 10px;
+  width: 50%;
+  background: lightsteelblue;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+  word-spacing: 3px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 28px;
+  padding: 12px;
+}
+
+#bible_books h1 {
+  color: red;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-style: oblique;
+}
+
+.bible_list_old {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgb(225, 225, 218);
+  font-style: italic;
+  font-weight: 400;
+  padding: 3px;
+  
+}
+
+.bible_list_old li {
+  border-left: 1px solid black;
+  padding: 3px;
+}
+
+.bible_list_old li:hover {
+  background: rgb(203, 101, 101);
+  cursor: pointer;
+}
+
+.bible_list_new {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgb(225, 225, 218);
+  font-style: italic;
+  font-weight: 400;
+  padding: 3px;
+}
+
+.bible_list_new li {
+  border-left: 1px solid black;
+  padding: 3px;
+}
+
+.bible_list_new li:hover {
+  background: rgb(203, 101, 101);
+  cursor: pointer;
+}
